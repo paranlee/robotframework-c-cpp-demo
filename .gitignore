@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # C extensions
+*.o
 *.so
 
 # Distribution / packaging
@@ -127,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+## Robot Framework report files
+*.html
+*.xml
